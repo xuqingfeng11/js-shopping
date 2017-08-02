@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-decoration: none;
+    font-size:12px;
+    line-height:20px;
+    vertical-align:bottom;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+   background-color: lightcyan ;
+}
+a:hover{
+    background-color:palevioletred;
+    text-decoration:underline;
+}
+img{
+    border:0;
+    vertical-align: center;
+}
+#header,#nav,#navlist,#content{
+    margin:10px auto;
+    width:800px;
+    clear:both;
+        }
+#navlist li{
+   display:inline-block;
+    height:22px;
+    text-align: center;
+    line-height:22px;
+    vertical-align:bottom;
+}
+#header{
+    height: 40px;
+}
+#nav{
+    height: 23px;
+}
+.navlist-red,.navlist-gray{
+    width: 18%;
+    align:center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navlist-red-left,.navlist-gray-array,.navlist-red-array,.navlist-gray-right{
+    width:calc(10%/6);
+    height: 21px;
+}
+.navlist-red,.navlist-red-array,.navlist-red-left{
+   background-color: darkorange;
+}
+.navlist-gray-array,.navlist-gray,.navlist-gray-right{
+    background-color: grey;
+}
+#cont1{
+    text-align: center;
+}
+
+.title1{
+   width: 50px;
+}
+.title3,.title4,.title6{
+    width: 80px;
+}
+.title5{
+    width: 100px;
+}
+.title7{
+    width: 60px;
+}
+.line{
+    background-color:peru;
+    height: 5px;
+    width: 100%;
+}
+
+#product1 td:nth-child(odd){
+    border-right:solid 1px #FFF;
+}
+#shop1{
+    padding-left:10px;
+    height:35px;
+}
+.cart-ad-1,.cart-ad-2,.cart-ad-3,.cart-ad-4,.cart-ad-5,.cart-ad-6,.cart-ad-7,.cart-ad-8{
+    background-color:lightskyblue;
+    padding:5px;
+    border-bottom:solid skyblue;
+    border-top:solid skyblue;
+    text-align:center;
+}
+.cart-ad-3{
+    text-align:left;
+}
+.cart-ad-4{
+    font-weight:bold;
+}
+.cart-ad-7{
+    font-weight:bold;
+    color:#fe6400;
+    font-size:14px;
+}
+.hand{
+    width:8px;
+}
+.input-num{
+    width:20px;
+    height:15px;
+    text-align:center;
+}
+.shoptotal{
+    text-align:right;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+.yellow{
+    font-weight:bold;
+    color:#fe6400;
+    font-size:18px;
+    line-height:40px;
+}
